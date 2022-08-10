@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: rgb(85, 85, 85);
+
+    font: normal 16px 'Roboto', sans-serif;
+}   
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    /*border: 5px solid red;*/
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+h3 {
+    color: brown;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 5%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 50%);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info  p {
+    color: black;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    /*text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 10%;*/
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+/* box model */
+
+.container {
+    max-width: 60%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.social {
+    background: rgb(247, 129, 102);
+    color: black;
+    padding: 15px;
+
+    /* padding: 15px 40px; */
+
+    /* padding: 15px 20px 25px 30px; */
+
+    /* padding-top: 15;
+    padding-right: 20;
+    padding-bottom: 25;
+    padding-left: 30; */
+
+    margin: 0px;
+
+    border-left: 8px solid red;
+
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 50%);
+
+}
+
+/*.box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+}*/
+
+.bg-blue {
+    background: rgb(217, 235, 241);
+    border-left: 8px solid rgb(88, 166, 255);
+}
+
+.bg-yellow {
+    background: #fff9dc;
+    border-left: 8px solid rgb(248, 248, 96);
+}
+
+.bg-green {
+    background: #e5ffe7;
+    border-left: 8px solid rgb(35, 134, 54);
+}
+
+.bg-red {
+    background: #ffe5e5;
+    border-left: 8px solid rgb(247, 32, 32);
+
+    margin-right: 10px;
+    width: 33%;
+}
+
+.gor-1 {
+    display: flex;
+}
+
+.list-hard {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.card {
+    width: 100%;
+    padding: 1px 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 30%);
+}
+
+.card2 {
+    width: 100%;
+    padding: 1px 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 30%); 
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20;
+}
+
+.list li {
+    color: rgb(85, 85, 85);
+    margin-bottom: 5px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+
