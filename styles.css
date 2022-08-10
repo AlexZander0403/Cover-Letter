@@ -28,17 +28,18 @@ a:visited {
 
 h3 {
     color: brown;
+    margin: 0px 0px;
 }
 
 .avatar {
-    width: 200px;
-    border-radius: 5%;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 50%);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(255, 0, 0);
 }
 
 .info {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .info  p {
@@ -52,8 +53,15 @@ h3 {
     word-spacing: 10%;*/
 }
 
+@media (max-width: 800px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
 .info-text {
-    margin-left: 20px;
+    margin: auto;
 }
 
 /* box model */
@@ -64,7 +72,7 @@ h3 {
     padding-top: 10px;
 }
 
-.social {
+/*.social {
     background: rgb(247, 129, 102);
     color: black;
     padding: 15px;
@@ -76,15 +84,14 @@ h3 {
     /* padding-top: 15;
     padding-right: 20;
     padding-bottom: 25;
-    padding-left: 30; */
+    padding-left: 30; 
 
     margin: 0px;
 
     border-left: 8px solid red;
 
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 50%);
-
-}
+}*/
 
 /*.box-model > div {
     float: left;
@@ -113,9 +120,6 @@ h3 {
 .bg-red {
     background: #ffe5e5;
     border-left: 8px solid rgb(247, 32, 32);
-
-    margin-right: 10px;
-    width: 33%;
 }
 
 .gor-1 {
@@ -128,31 +132,28 @@ h3 {
 }
 
 .card {
-    width: 100%;
-    padding: 1px 20px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    padding: 15px 15px;
+    margin: 7px;
     border-radius: 15px;
     box-sizing: border-box;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 30%);
 }
 
 .card2 {
-    width: 100%;
-    padding: 1px 20px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    border-radius: 15px;
-    box-sizing: border-box;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 30%); 
+    float: left;
+    padding: 5px 10px;
+    margin: 5px 10px 5px 0px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 30%);
+    border: 1px solid rgb(207, 207, 207);
 }
 
-.card h2 {
-    margin-bottom: 10px;
+.card h3 {
+    margin-bottom: 5px;
 }
 
 .list {
-    padding: 0 20;
+    padding: auto;
 }
 
 .list li {
